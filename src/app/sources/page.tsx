@@ -12,7 +12,7 @@ const sources = () => {
                             <h1>eğitimler</h1>
                         </div>
                         <div className={styles.bodywhite}>
-                            <span style={{ fontSize: "20px" }} >Farklı başlıklar altında Türkiye’nin web 3.0 uzmanlarıyla gerçekleştirdiğimiz eğitimlerimize YouTube üzerinden erişebilirsiniz. Aynı zamanda eğitimlerimiz Skype üzerinden canlı yayın olarak verilmektedir ve herkesin katılımına ücretsiz şekilde açıktır. En yakın zamandaki canlı yayını keşfetmek için sosyal medya hesaplarımızı takip edin!</span>
+                            <span style={{ fontSize: "20px" }} >Farklı başlıklar altında Türkiye&apos;nin web 3.0 uzmanlarıyla gerçekleştirdiğimiz eğitimlerimize YouTube üzerinden erişebilirsiniz. Aynı zamanda eğitimlerimiz Skype üzerinden canlı yayın olarak verilmektedir ve herkesin katılımına ücretsiz şekilde açıktır. En yakın zamandaki canlı yayını keşfetmek için sosyal medya hesaplarımızı takip edin!</span>
                         </div>
                     </div>
                     <div style={{ width: "420px", height: "450px", textAlign: "center" }}>
@@ -30,7 +30,7 @@ const sources = () => {
                             <h1>bloglar</h1>
                         </div>
                         <div className={styles.bodywhite}>
-                            <span style={{ fontSize: "20px" }}>Web 3.0'ın en güncel haberlerinden, tartışılan konulardan ve blokzincir genel kültüründen bahseden blog yazıları yayımlamaktayız. Herkes için erişilebilir Türkçe kaynak hazırlayan ekibimizin yazılarına medium ve mirror üzerinden ulaşabilirsiniz.</span>
+                            <span style={{ fontSize: "20px" }}>Web 3.0&apos;ın en güncel haberlerinden, tartışılan konulardan ve blokzincir genel kültüründen bahseden blog yazıları yayımlamaktayız. Herkes için erişilebilir Türkçe kaynak hazırlayan ekibimizin yazılarına medium ve mirror üzerinden ulaşabilirsiniz.</span>
                         </div>
                     </div>
                     <div style={{ width: "375px", height: "450px", textAlign: "center" }}>
