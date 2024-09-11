@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://web3koleji.github.io",
-  "predeploy": "npm run build", "deploy": "gh-pages -d build",
+  "predeploy": "npm run build", "deploy": "gh-pages -d dist",
   "scripts": {
     "dev": "next dev -p 1234",
     "build": "next build",
