@@ -2,10 +2,12 @@
   "name": "w3k_web",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://web3koleji.github.io",
+  "predeploy": "npm run build", "deploy": "gh-pages -d build",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 1234",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 6000",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,9 +16,9 @@
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
-    "next": "14.2.5",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "^14.2.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -24,6 +26,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
+    "gh-pages": "^6.1.1",
     "typescript": "^5"
   }
 }
