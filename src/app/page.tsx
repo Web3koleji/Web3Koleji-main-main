@@ -4,6 +4,7 @@ import RouteBar from "../../components/routeBar/routeBar";
 
 export default function Home() {
   return (
+
     <div className={styles.body} >
       <div className={styles.dmsans} style={{ justifyContent: "center" }} >
         <div className={styles.centertext}>
